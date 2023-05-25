@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+strong {
+    font-weight: bold;
+    color: #353535;
+}
+
+input[type="number"] {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #d4d8d9;
+}
+
+.cart_area {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.cart_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cart_area_inner h2 {
+    font-size: 26px;
+    letter-spacing: 0.08em;
+    font-weight: normal;
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+.information {
+    display: table;
+    table-layout: fixed;
+    padding: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+}
+
+.title {
+    display: table-cell;
+    padding: 0 25px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.description {
+    display: table-cell;
+    padding: 0 40px;
+    width: auto;
+    line-height: 1.5em;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+    vertical-align: middle;
+}
+
+.mileage {
+    margin: 6px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.order_info {
+    margin-top: 30px;
+}
+
+.order_info h4 {
+    color: #353535;
+    font-size: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+table {
+    width: 100%;
+}
+
+table thead th {
+    padding: 15px 0 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #353535;
+    vertical-align: middle;
+    font-weight: 300;
+    background: #fff;
+}
+
+table tbody td {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #dfdfdf;
+    color: #707070;
+    padding: 15px 0 15px;
+    background: #fff;
+}
+
+table tbody td img {
+    max-width: 70px;
+    object-fit: contain;
+}
+
+table tfoot {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+table tfoot td {
+    padding: 15px 0px 17px 0px;
+    background: #fff;
+    text-align: right;
+    font-size: 18px;
+}
+
+.tb_left {
+    text-align: left;
+}
+
+.table_option {
+    margin-top: 9px;
+    color: #707070;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 5px 0;
+    margin: 2px 0;
+    width: 110px;
+    font-size: 13px;
+    letter-spacing: 0;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    border: 1px solid #353535;
+}
+
+.btn_area {
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 10px 0;
+    margin: 2px 0;
+    width: 110px;
+    font-size: 13px;
+    letter-spacing: 0;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn2:hover {
+    border: 1px solid #353535;
+}
+
+.btn3 {
+    padding: 10px 0;
+    margin: 2px 0;
+    width: 110px;
+    font-size: 13px;
+    letter-spacing: 0;
+    display: inline-block;
+    background: #353535;
+    border: 1px solid #353535;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn3:hover {
+    color: #353535;
+    background-color: #fff;
+    border: 1px solid #353535;
+}

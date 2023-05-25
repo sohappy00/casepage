@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+input:focus {
+    outline: none;
+}
+
+.find_id_area {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.find_id_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.find_id_area_inner h2 {
+    font-size: 26px;
+    letter-spacing: 0.08em;
+    font-weight: normal;
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+.find_id_area_inner form {
+    text-align: center;
+}
+
+.find_id_area_inner label {
+    display: block;
+    padding: 5px 0;
+    color: #2e2e2e;
+}
+
+.find_id_area_inner label span {
+    display: inline-block;
+    text-align: left;
+    width: 123px;
+}
+
+.find_id_area_inner input.input {
+    height: 28px;
+    line-height: 24px;
+    padding: 2px 10px;
+    border: 1px solid #d5d5d5;
+    color: #111111;
+    font-size: 12px;
+    width: 300px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    color: #222;
+    padding: 10px 5px; 
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #111111;
+    color: #fff;
+}
+
+.btn_submit {
+    margin-top: 30px;
+}

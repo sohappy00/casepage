@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* event_area 영역 시작 */
+.event_area {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.event_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: lightblue; */
+}
+
+.event_area_inner h2 {
+    font-size: 26px;
+    letter-spacing: 0.08em;
+    font-weight: normal;
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+.event_area_inner ul.event_list {
+    text-align: center;
+}
+
+.event_list li {
+    display: inline-block;
+    width: 279px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.event_list li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.event_list li img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.event_list li .event_name {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 20px 10px;
+}
+
+.event_list li .event_ment {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+    padding: 0 20px 30px;
+    text-align: center;
+    color: #888;
+}
+
+.bottom_nav {
+    position: relative;
+    padding-top: 30px;
+}
+
+.bottom_nav ul {
+    text-align: center;
+}
+
+.bottom_nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.bottom_nav ul li a {
+    color: #888;
+}
+
+.bottom_nav ul li a:hover {
+    color: #222;
+}
+
+.bottom_nav ul li img {
+    width: 10px;
+}
+
+.btn_write {
+    position: absolute;
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: 80px;
+    text-align: center;
+    top: 15px;
+    right: 0;
+}
+
+.btn_write:hover {
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, .3);
+}

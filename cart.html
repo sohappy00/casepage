@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스케이스 SCASE</title>
+  <link rel="icon" href="image/logo_img.png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cart.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/cart.js"></script>
+</head>
+
+<body>
+  <!-- header 영역 시작 -->
+  <header>
+    <div class="marquee_area">
+      <a href="index.html">
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+      </a>
+    </div>
+
+    <div class="nav_area">
+      <nav class="clearfix">
+        <ul>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">JOIN</a></li>
+          <li><a href="#">CART</a></li>
+          <li><a href="#">ORDER</a></li>
+          <li><a href="#">MYPAGE</a></li>
+          <li><a href="#">SEARCH</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="top_menu_area">
+      <div class="top_menu_inner_area">
+        <h1>
+          <a href="index.html">
+            <img src="image/logo_img.png" alt="로고">
+          </a>
+        </h1>
+        <ul>
+          <li><a href="#">STORY</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">REVIEW</a></li>
+          <li><a href="#">MAGAZINE</a></li>
+          <li><a href="#">EVENT</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- header 영역 종료 -->
+
+  <div class="container">
+    <section class="cart_area">
+      <div class="cart_area_inner">
+        <h2>CART</h2>
+
+        <div class="information">
+          <h3 class="title">혜택정보</h3>
+          <div class="description">
+            <div class="member">
+              <p><strong>김수환</strong> 님은, [일반회원] 회원이십니다.</p>
+            </div>
+            <ul class="mileage">
+              <li><a href="/myshop/mileage/historyList.html">가용적립금 : <strong>0원</strong></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="order_info">
+          <h4><strong>일반상품 (4)</strong></h4>
+          <form action="#">
+            <fieldset>
+              <legend>장바구니</legend>
+              <table>
+                <caption>기본배송</caption>
+                <colgroup>
+                  <col width="27">
+                  <col width="92">
+                  <col width="auto">
+                  <col width="98">
+                  <col width="75">
+                  <col width="98">
+                  <col width="98">
+                  <col width="85">
+                  <col width="98">
+                  <col width="110">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th scope="col">
+                      <input type="checkbox" class="all_chk">
+                    </th>
+                    <th scope="col">이미지</th>
+                    <th scope="col">상품정보</th>
+                    <th scope="col">판매가</th>
+                    <th scope="col">수량</th>
+                    <th scope="col">적립금</th>
+                    <th scope="col">배송구분</th>
+                    <th scope="col">배송비</th>
+                    <th scope="col">합계</th>
+                    <th scope="col">선택</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="item_chk">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="image/리뷰이미지.jpg" alt="#">
+                      </a>
+                    </td>
+                    <td class="tb_left">
+                      <strong>피크닉 (투명)</strong>
+                      <span class="table_thumb">
+                        <img src="image/icon_global_01.gif" alt="#">
+                      </span>
+                      <p class="table_option">
+                        [옵션: 아이폰 7+/8+/피크닉1/투명 젤리]
+                      </p>
+                    </td>
+                    <td>
+                      <strong>14,500원</strong>
+                    </td>
+                    <td>
+                      <input type="number" name="" id="" min="1">
+                    </td>
+                    <td>
+                      <img src="image/ico_product_point.gif" alt="적립금">
+                      <span class="table_point">145원</span>
+                    </td>
+                    <td>
+                      기본배송
+                    </td>
+                    <td>
+                      무료
+                    </td>
+                    <td>
+                      <strong class="table_price">14,500원</strong>
+                    </td>
+                    <td>
+                      <a href="#" class="btn">
+                        주문하기
+                      </a>
+                      <a href="#" class="btn">
+                        삭제
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="item_chk">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="image/리뷰이미지.jpg" alt="#">
+                      </a>
+                    </td>
+                    <td class="tb_left">
+                      <strong>피크닉 (투명)</strong>
+                      <span class="table_thumb">
+                        <img src="image/icon_global_01.gif" alt="#">
+                      </span>
+                      <p class="table_option">
+                        [옵션: 아이폰 7+/8+/피크닉1/투명 젤리]
+                      </p>
+                    </td>
+                    <td>
+                      <strong>14,500원</strong>
+                    </td>
+                    <td>
+                      <input type="number" name="" id="" min="1">
+                    </td>
+                    <td>
+                      <img src="image/ico_product_point.gif" alt="적립금">
+                      <span class="table_point">145원</span>
+                    </td>
+                    <td>
+                      기본배송
+                    </td>
+                    <td>
+                      무료
+                    </td>
+                    <td>
+                      <strong class="table_price">14,500원</strong>
+                    </td>
+                    <td>
+                      <a href="#" class="btn">
+                        주문하기
+                      </a>
+                      <a href="#" class="btn">
+                        삭제
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="item_chk">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="image/리뷰이미지.jpg" alt="#">
+                      </a>
+                    </td>
+                    <td class="tb_left">
+                      <strong>피크닉 (투명)</strong>
+                      <span class="table_thumb">
+                        <img src="image/icon_global_01.gif" alt="#">
+                      </span>
+                      <p class="table_option">
+                        [옵션: 아이폰 7+/8+/피크닉1/투명 젤리]
+                      </p>
+                    </td>
+                    <td>
+                      <strong>14,500원</strong>
+                    </td>
+                    <td>
+                      <input type="number" name="" id="" min="1">
+                    </td>
+                    <td>
+                      <img src="image/ico_product_point.gif" alt="적립금">
+                      <span class="table_point">145원</span>
+                    </td>
+                    <td>
+                      기본배송
+                    </td>
+                    <td>
+                      무료
+                    </td>
+                    <td>
+                      <strong class="table_price">14,500원</strong>
+                    </td>
+                    <td>
+                      <a href="#" class="btn">
+                        주문하기
+                      </a>
+                      <a href="#" class="btn">
+                        삭제
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="item_chk">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="image/리뷰이미지.jpg" alt="#">
+                      </a>
+                    </td>
+                    <td class="tb_left">
+                      <strong>피크닉 (투명)</strong>
+                      <span class="table_thumb">
+                        <img src="image/icon_global_01.gif" alt="#">
+                      </span>
+                      <p class="table_option">
+                        [옵션: 아이폰 7+/8+/피크닉1/투명 젤리]
+                      </p>
+                    </td>
+                    <td>
+                      <strong>14,500원</strong>
+                    </td>
+                    <td>
+                      <input type="number" name="" id="" min="1">
+                    </td>
+                    <td>
+                      <img src="image/ico_product_point.gif" alt="적립금">
+                      <span class="table_point">145원</span>
+                    </td>
+                    <td>
+                      기본배송
+                    </td>
+                    <td>
+                      무료
+                    </td>
+                    <td>
+                      <strong class="table_price">14,500원</strong>
+                    </td>
+                    <td>
+                      <a href="#" class="btn">
+                        주문하기
+                      </a>
+                      <a href="#" class="btn">
+                        삭제
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="item_chk">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="image/리뷰이미지.jpg" alt="#">
+                      </a>
+                    </td>
+                    <td class="tb_left">
+                      <strong>피크닉 (투명)</strong>
+                      <span class="table_thumb">
+                        <img src="image/icon_global_01.gif" alt="#">
+                      </span>
+                      <p class="table_option">
+                        [옵션: 아이폰 7+/8+/피크닉1/투명 젤리]
+                      </p>
+                    </td>
+                    <td>
+                      <strong>14,500원</strong>
+                    </td>
+                    <td>
+                      <input type="number" name="" id="" min="1">
+                    </td>
+                    <td>
+                      <img src="image/ico_product_point.gif" alt="적립금">
+                      <span class="table_point">145원</span>
+                    </td>
+                    <td>
+                      기본배송
+                    </td>
+                    <td>
+                      무료
+                    </td>
+                    <td>
+                      <strong class="table_price">14,500원</strong>
+                    </td>
+                    <td>
+                      <a href="#" class="btn">
+                        주문하기
+                      </a>
+                      <a href="#" class="btn">
+                        삭제
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <td colspan="10">
+                    상품구매금액 <strong class="price">59,500</strong> + 배송비 0 (무료) = 합계: <strong class="total_price">59,500원</strong>
+                  </td>
+                </tfoot>
+              </table>
+              <div class="btn_area">
+                <strong>선택상품을 </strong>
+                <a href="#" class="btn2">삭제하기</a>
+                <a href="#" class="btn2">장바구니 비우기</a>
+                <div style="float:right">
+                  <input type="submit" value="전체 상품 주문" class="btn3">
+                  <input type="submit" value="선택 상품 주문" class="btn3">
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- footer 영역 시작 -->
+  <footer>
+    <div class="footer_inner">
+      <div class="footer_info">
+        <ul class="clearfix">
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">제휴제안</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <p class="footer_info_text">
+          (주)Scase · 대표 윤소라 김수환&nbsp;&nbsp;&nbsp;&nbsp;사업자등록번호: 123-45-67891&nbsp;&nbsp;&nbsp;&nbsp;통신판매번호:
+          0908-서울양천-0601
+          <br>
+          주소: 서울특별시 종로구 효자로 12 광화문
+        </p>
+        <p class="footer_info_copy">
+          &copy; SS Corp.
+        </p>
+      </div>
+      <div class="footer_customer">
+        <p class="cs_title">고객센터 0601-0908</p>
+        <p class="cs_text">
+          평일: 10:00 ~ 22:00 (토·일, 공휴일 제외)
+          <br>
+          점심 시간: 12:00 ~ 13:30
+        </p>
+        <div class="btn_area">
+          <a href="#" class="btn_cs">문의하기</a>
+        </div>
+      </div>
+      <div class="footer_sns">
+        <a href="#">
+          <img src="image/instagram.png" alt="인스타그램 바로가기">
+        </a>
+        <a href="#">
+          <img src="image/facebook.png" alt="페이스북 바로가기">
+        </a>
+        <a href="#">
+          <img src="image/kakao-talk.png" alt="카카오톡 바로가기">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer 영역 종료 -->
+</body>
+
+</html>

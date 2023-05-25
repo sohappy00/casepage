@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스케이스 SCASE</title>
+  <link rel="icon" href="image/logo_img.png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/product.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/product.js"></script>
+</head>
+
+<body>
+  <!-- header 영역 시작 -->
+  <header>
+    <div class="marquee_area">
+      <a href="index.html">
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+        <div class="marquee-text">Make everyday fun and happy!</div>
+      </a>
+    </div>
+
+    <div class="nav_area">
+      <nav class="clearfix">
+        <ul>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">JOIN</a></li>
+          <li><a href="#">CART</a></li>
+          <li><a href="#">ORDER</a></li>
+          <li><a href="#">MYPAGE</a></li>
+          <li><a href="#">SEARCH</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="top_menu_area">
+      <div class="top_menu_inner_area">
+        <h1>
+          <a href="index.html">
+            <img src="image/logo_img.png" alt="로고">
+          </a>
+        </h1>
+        <ul>
+          <li><a href="#">STORY</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">REVIEW</a></li>
+          <li><a href="#">MAGAZINE</a></li>
+          <li><a href="#">EVENT</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- header 영역 종료 -->
+
+  <div class="container">
+    <div class="product_area">
+      <div class="product_inner_area clearfix">
+        <div class="product_inner_top clearfix">
+          <ul class="thumb_img clearfix">
+            <li>
+              <img src="image/product_img.jpg" alt="#">
+            </li>
+            <li>
+              <img src="image/product_img.jpg" alt="#">
+            </li>
+            <li>
+              <img src="image/product_img.jpg" alt="#">
+            </li>
+          </ul>
+          <div class="item_image_area clearfix">
+            <img src="image/product_img.jpg" alt="#">
+          </div>
+          <div class="item_info_area clearfix">
+            <p class="item_name">행우니 (에어팟3 & 프로)</p>
+            <p class="item_price">13,000원</p>
+            <div class="table_select">
+              <table>
+                <caption>상품 옵션</caption>
+                <tbody>
+                  <tr>
+                    <th scope="row">에어팟 프로 & 에어팟 3</th>
+                    <td>
+                      <select class="product_option">
+                        <option value="*">[필수] 옵션을 선택해주세요</option>
+                        <option value="**">-------------------</option>
+                        <option value="1">에어팟 프로</option>
+                        <option value="2">에어팟 프로2</option>
+                        <option value="3">에어팟3</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table_product_list">
+              <table>
+                <caption>상품 목록</caption>
+                <colgroup>
+                  <col width="284px">
+                  <col width="80px">
+                  <col width="110px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th scope="col">상품명</th>
+                    <th scope="col">상품수</th>
+                    <th scope="col">가격</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+            <p class="total_price">
+              TOTAL: 
+              <strong>13,000원</strong>
+              <span>(3개)</span>
+            </p>
+            <a href="#" class="btn_buy">구매하기</a>
+            <a href="#" class="btn_white">장바구니</a>
+            <a href="#" class="btn_white">구매하기</a>
+          </div>
+        </div>
+        <div>
+          <!--탭 메뉴 시작-->
+          <div class="product_tabs one">
+            <ul class="tabs">
+              <li class="tab" data-tab="tab1">
+                <a href="#">
+                  <p>상품정보</p>
+                </a>
+              </li>
+              <li class="tab" data-tab="tab2">
+                <a href="#">
+                  <p>구매정보</p>
+                </a>
+              </li>
+              <li class="tab" data-tab="tab3">
+                <a href="#">
+                  <p>상품후기</p>
+                </a>
+              </li>
+              <li class="tab" data-tab="tab4">
+                <a href="#">
+                  <p>상품문의</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--탭 메뉴 끝-->
+        </div>
+        <!--탭 메뉴 상세 내용 시작-->
+        <div>
+          <!--상품 정보 시작-->
+          <div id="tab1" class="pro_detail pro_tab  pic">
+            <img src="image/detail01.jpg" alt="제품 상세설명 이미지">
+            <img src="image/detail02.jpg" alt="제품 상세설명 이미지">
+            <img src="image/detail03.jpg" alt="제품 상세설명 이미지">
+          </div>
+          <!--상품 정보 끝-->
+  
+  
+          <!--구매 정보 시작-->
+          <div id="tab2" class="pro_tab">
+            <div class="tab2_top">
+              <div class="tab2_left">
+                <h3>상품결제정보</h3>
+                <p>고액결제의 경우 안전을 위해 카드사에서 확인전화를 드릴 수도 있습니다. 확인과정에서 도난 카드의 사용이나 타인 명의의 주문등 정상적인 주문이 아니라고 판단될
+                  경우 임의로 주문을 보류 또는 취소할 수 있습니다. </p>
+                <p>무통장 입금은 상품 구매 대금은 PC뱅킹, 인터넷뱅킹, 텔레뱅킹 혹은 가까운 은행에서 직접 입금하시면 됩니다.
+                  주문시 입력한 입금자명과 실제입금자의 성명이 반드시 일치하여야 하며, 7일 이내로 입금을 하셔야 하며 입금되지 않은 주문은 자동취소 됩니다.</p>
+              </div>
+              <div class="tab2_right">
+                <h3>배송정보</h3>
+                <ul>
+                  <li>배송 방법 : 택배</li>
+                  <li>배송 지역 : 전국지역</li>
+                  <li>배송 비용 : 3,000원</li>
+                  <li>배송 기간 : 3일 ~ 5일</li>
+                  <li>배송 안내 : <span class="bold">배송 기간은 평일 기준 2-3일 정도 소요됩니다.</span></li>
+                </ul>
+                <p>
+                  <strong class="bold">핸드폰, 에어팟 케이스와 같이 주문 제작 상품과 함께 주문 시 3-5일 정도 소요될 수 있습니다.</strong><br>
+                  *주문 제작 상품은 제작 진행 후 단순 취소 및 교환, 반품이 불가한 점 확인 부탁드립니다.
+                </p>
+                <ul>
+                  <li><span class="bold">택배사</span> 롯데택배</li>
+                  <li><span class="bold">배송비</span> 3,000원 (제주도서산간지역 6,000원)<br>
+                    50,000원 이상 구매시 배송비 무료</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab2_bottom">
+              <div class="tab2_text">
+                <h3>교환 및 반품정보</h3>
+                <p class="bold">*핸드폰, 에어팟 케이스는 주문 제작으로 단순 변심으로 인한 교환 및 반품이 불가한 점 확인 부탁드립니다. </p>
+                <p class="bold">교환, 반품 안내</p>
+                <p>반품 배송비: 3,000원(최초 배송비 무료인 경우 6,000원 부과)<br>
+                  교환 배송비: 6,000원 <br>
+                  *제품 수령 후 7일 이내인 경우 교환, 반품 가능<br><br>
+                  교환 및 반품 신청 시 홈페이지 Q&A 또는 채팅으로 문의 부탁드립니다.
+                </p>
+                <p class="bold">*교환, 반품 불가 사유</p>
+                <p>- 구매자 책임으로 제품의 훼손된 경우 <br>
+                  - 교환 및 반품 요청 기간이 지난 경우<br>
+                  - 구매자의 사용으로 인해 상품 가치가 감소한 경우 <br>
+                  - 주문 제작 상품
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--구매 정보 끝-->
+  
+  
+          <!--상품 후기 시작-->
+          <div id="tab3" class="pro_tab">
+            <div class="mini_header">
+              <div>
+                <h3>REVIEW</h3>
+              </div>
+              <div>
+                <span>
+                  <a href="#">WRITE</a>
+                  <a href="#">LIST</a>
+                </span>
+              </div>
+            </div>
+            <div>
+              <table>
+                <caption>리뷰 테이블</caption>
+                <colgroup>
+                  <col style="width:70px;">
+                  <col style="width:900px">
+                  <col style="width:150px;">
+                </colgroup>
+                <tbody>
+                  <tr class="review_click">
+                    <td>1</td>
+                    <td>냥아치 너모 귀엽고 튼튼해서 만족해요!!</a></td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="review_hide">
+                    <td colspan="3">
+                      <div>
+                        <p>냥아치 너모 귀엽고 튼튼해서 만족해요!!</p>
+                        <br>
+                        <br>
+                        <span>(2021-12-20 14:19:15 에 등록된 네이버 페이 구매평)</span>
+                        <p>
+                          <img src="image/review_img.jpeg" alt="리뷰이미지">
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="review_click">
+                    <td>2</td>
+                    <td>만족</td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="review_hide">
+                    <td colspan="3">
+                      <div>
+                        <p>귀여워요……너무 귀여워…….</p>
+                        <br>
+                        <br>
+                        <span>(2021-07-18 12:15:30 에 등록된 네이버 페이 구매평)</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="review_click">
+                    <td>3</td>
+                    <td>너무귀엽고 사이즈도 딱 적당한거같아요!! 진짜 너무 기여워요ㅠㅠ </td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="review_hide">
+                    <td colspan="3">
+                      <div>
+                        <p>너무귀엽고 사이즈도 딱 적당한거같아요!! 진짜 너무 기여워요ㅠㅠ </p>
+                        <br>
+                        <br>
+                        <span>(2021-07-17 18:59:34 에 등록된 네이버 페이 구매평)</span>
+                        <p>
+                          <img src="image/review_img02.jpeg" alt="리뷰이미지">
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--상품 후기 끝-->
+  
+  
+          <!--상품 문의 시작-->
+          <div id="tab4" class="pro_tab">
+            <div class="mini_header">
+              <div>
+                <h3>Q & A</h3>
+              </div>
+              <div>
+                <span>
+                  <a href="#">WRITE</a>
+                  <a href="#">LIST</a>
+                </span>
+              </div>
+            </div>
+            <div>
+              <table>
+                <caption>문의 테이블</caption>
+                <colgroup>
+                  <col style="width:70px;">
+                  <col style="width:900px">
+                  <col style="width:150px;">
+                </colgroup>
+                <tbody>
+                  <tr class="qna_click">
+                    <td>1</td>
+                    <td>비밀글 문의 드립니다.</td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="qna_hide">
+                    <td colspan="3">
+                      <div>
+                        <span>비밀번호</span>
+                        <input type="password">
+                        <input type="button" value="확인">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="qna_click">
+                    <td>2</td>
+                    <td>비밀글 문의 드립니다.</td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="qna_hide">
+                    <td colspan="3">
+                      <div>
+                        <span>비밀번호</span>
+                        <input type="password">
+                        <input type="button" value="확인">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="qna_click">
+                    <td>3</td>
+                    <td>비밀글 문의 드립니다.</td>
+                    <td>네*****</td>
+                  </tr>
+                  <tr class="qna_hide">
+                    <td colspan="3">
+                      <div>
+                        <span>비밀번호</span>
+                        <input class="qna_pw" type="password">
+                        <input class="qna_btn" type="button" value="확인">
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--상품 문의 끝-->
+        </div>
+        <!--탭 메뉴 상세 내용 끝-->
+      </div>
+    </div>
+  </div>
+
+  <!-- footer 영역 시작 -->
+  <footer>
+    <div class="footer_inner">
+      <div class="footer_info">
+        <ul class="clearfix">
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">제휴제안</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <p class="footer_info_text">
+          (주)Scase · 대표 윤소라 김수환&nbsp;&nbsp;&nbsp;&nbsp;사업자등록번호: 123-45-67891&nbsp;&nbsp;&nbsp;&nbsp;통신판매번호:
+          0908-서울양천-0601
+          <br>
+          주소: 서울특별시 종로구 효자로 12 광화문
+        </p>
+        <p class="footer_info_copy">
+          &copy; SS Corp.
+        </p>
+      </div>
+      <div class="footer_customer">
+        <p class="cs_title">고객센터 0601-0908</p>
+        <p class="cs_text">
+          평일: 10:00 ~ 22:00 (토·일, 공휴일 제외)
+          <br>
+          점심 시간: 12:00 ~ 13:30
+        </p>
+        <div class="btn_area">
+          <a href="#" class="btn_cs">문의하기</a>
+        </div>
+      </div>
+      <div class="footer_sns">
+        <a href="#">
+          <img src="image/instagram.png" alt="인스타그램 바로가기">
+        </a>
+        <a href="#">
+          <img src="image/facebook.png" alt="페이스북 바로가기">
+        </a>
+        <a href="#">
+          <img src="image/kakao-talk.png" alt="카카오톡 바로가기">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer 영역 종료 -->
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../font/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+body {
+    font-family: "Montserrat-Medium";
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+header {
+    height: 180px;
+}
+
+/* bear_top 영역 시작 */
+.bear_top {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 43px;
+    cursor: pointer;
+}
+
+.bear_top img {
+    width: 100%;
+    height: 100%;
+}
+/* bear_top 영역 종료 */
+
+/* marquee_area 영역 시작 */
+.marquee_area {
+    width: 100%;
+    padding: 13px 0;
+    white-space: nowrap;
+    background-color: #5B4996;
+    overflow: hidden;
+    min-width: 1400px;
+}
+
+.marquee-text {
+    display: inline-block;
+    width: 17%;
+    font-size: 14px;
+    color: #fff;
+    animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* marquee_area 영역 종료 */
+
+/* nav_area 영역 시작 */
+.nav_area {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    min-width: 1200px;
+}
+
+.nav_area nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_area nav ul {
+    float: right;
+}
+
+.nav_area li {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav_area li a {
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.nav_area li a:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+/* nav_area 영역 종료 */
+
+/* top_menu_area 영역 시작 */
+.top_menu_area {
+    width: 100%;
+    background-color: #fff;
+}
+
+.top_menu_inner_area {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top_menu_area h1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.top_menu_area h1 a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.top_menu_area h1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.top_menu_area ul {
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.top_menu_area li {
+    display: inline-block;
+}
+
+.top_menu_area li a {
+    display: inline-block;
+    padding: 8px 0 30px;
+    margin: 3px 23px 0;
+    letter-spacing: 0.06em;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: linear-gradient(transparent calc(100% - 10px), #b8a4fc 3px);
+    background-repeat: no-repeat;
+    background-size: 0% 55%;
+    transition: all 0.3s;
+}
+
+.top_menu_area li a:hover {
+    background-size: 100% 55%;
+}
+/* top_menu_area 영역 종료 */
+
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: '';
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* keyframes */
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-10%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(10%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 10%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -10%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
